@@ -36,8 +36,8 @@ console.log(outLoops);
     //     table1.innerHTML += '<hr>'
     // }
     // через интерполяцию
-    for(let i = 1; i <= 9; i++) {
-        for(let k = 1; k <= 9; k++) {
+    for(let i = 1; i <= 10; i++) {
+        for(let k = 1; k <= 10; k++) {
             table1.innerHTML += `${i}*${k}=${i * k}</br>`
         }
         table1.innerHTML += '<hr>'
