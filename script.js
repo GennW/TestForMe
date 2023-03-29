@@ -16,13 +16,7 @@ else {
     out.innerHTML = 'равны'
 }
 }
-// Циклы Loops
-let outLoops = document.querySelector('.outLoops');
-console.log(outLoops);
-    
-    for (let i = 0; i < 5; i++) {
-        outLoops.innerHTML += '*1 '
-    }
+
 
     // таблица умножения
     let table1 = document.querySelector('#table1');
